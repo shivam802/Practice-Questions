@@ -31,7 +31,8 @@ public:
         
         set<string> s;
             for( int i=0;i<words.size();i++)
-            {string ans="";
+            {
+                string ans="";
                  string x= words[i];
                 for( int j=0;j<x.length();j++)
                 {ans+=alpha[x[j]];
